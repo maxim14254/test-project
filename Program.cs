@@ -17,7 +17,7 @@ namespace ConsoleApp1
         private static bool block = true;//переменная открывающая проход для добавление артиста и его альбомов
         public static void Main(string[] args)
         {
-            SqlConnection sqlConnection = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\Database1.mdf;Integrated Security=True;Connect Timeout=30");
+            SqlConnection sqlConnection = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=" + Directory.GetCurrentDirectory() + "\\Database1.mdf;" + "Integrated Security=True;Connect Timeout=30;User Instance=False");
             sqlConnection.Open(); // подключаем базу данных
 
             WebClient wc = new WebClient(); // класс для загрузки файлов
