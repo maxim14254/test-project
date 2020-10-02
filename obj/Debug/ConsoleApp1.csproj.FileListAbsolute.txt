@@ -19,3 +19,6 @@ C:\Users\Maxim\Desktop\Test\obj\Debug\ConsoleApp1.csprojAssemblyReference.cache
 C:\Users\Maxim\Desktop\Test\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
 C:\Users\Maxim\Desktop\Test\obj\Debug\ConsoleApp1.exe
 C:\Users\Maxim\Desktop\Test\obj\Debug\ConsoleApp1.pdb
+C:\Users\Maxim\Desktop\Test\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Maxim\Desktop\Test\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Maxim\Desktop\Test\obj\Debug\ConsoleApp1.csproj.CopyComplete
